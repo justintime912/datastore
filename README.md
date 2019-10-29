@@ -19,5 +19,5 @@ datastore.location=C:/datastore/store.ser
 
 ## Swagger Link
 
-Once it is up and running, you can quickly view the APIs using Swagger:
+Once it is up and running, you can view the APIs using Swagger:
 http://localhost:8080/swagger-ui.html
