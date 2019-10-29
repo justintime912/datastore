@@ -29,6 +29,7 @@ public class DataFileServiceImpl implements DataFileService{
 	private String dataStoreLocation;
 	
 	private Map<String,DataStoreDTO> dataMap = new ConcurrentHashMap<>();
+	private static Object lock = new Object();
 	
 	@PostConstruct
     public void init() {
@@ -70,7 +71,9 @@ public class DataFileServiceImpl implements DataFileService{
 		try(FileOutputStream f = new FileOutputStream(dataStoreFile)) {
 			ObjectOutputStream o = new ObjectOutputStream(f);
 			o.writeObject(dataMap);
-			this.dataMap  = dataMap;
+			synchronized(lock) {
+				this.dataMap  = dataMap;
+			}
 			
 		}catch( FileNotFoundException ex) {
 			throw new StoreException(ex.getMessage());	
