@@ -8,6 +8,11 @@ java -jar datastore-0.0.1-SNAPSHOT.jar
 ```
 
 ### Basic Configuration
+Create a directory like below:
+```
+C:/datastore/
+```
+Then update the application.properties file as follows:
 ```
 datastore.location=C:/datastore/store.ser
 ```
