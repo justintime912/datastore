@@ -36,7 +36,7 @@ public class DataStoreController {
 			ResponseEntity.badRequest().body(DataStoreConstants.ResponseMessageStatus.KEY_SIZE_EXCEEDED);
 		}
 		
-		if(value==null || isJSONValid(value.toString())) {
+		else if(value==null || !isJSONValid(value.toString())) {
 			ResponseEntity.badRequest().body(DataStoreConstants.ResponseMessageStatus.VALUE_IS_INCORRECT_JSON);
 		} else if ( isJSONTooLarge(value.toString())) {
 			ResponseEntity.badRequest().body(DataStoreConstants.ResponseMessageStatus.JSON_SIZE_EXCEEDED);
