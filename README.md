@@ -26,3 +26,4 @@ http://localhost:8080/swagger-ui.html
 ## This is a sample change to be later fetched by other forked projects!
 
 ##try with a branch now!
+## adding some new stuff!
