@@ -1,1 +1,2 @@
 Added another new file
+Sample line added
