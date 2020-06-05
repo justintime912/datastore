@@ -2,6 +2,7 @@
 A sample project for learning git.
 Additional comment.
 
+Git Pull Testing now.
 A new change. Do a fetch now.
 ## Spring Boot Project
 
