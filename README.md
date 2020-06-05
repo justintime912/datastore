@@ -35,3 +35,6 @@ Adding another line. Please fetch these changes!
 Yet another change!
 
 Another useful addition!
+
+## How to test
+http://localhost:8080/swagger-ui.html
