@@ -1,5 +1,8 @@
 another file
 
-another line5
+another line3
+
+new line
+another new line
 
 another line5
