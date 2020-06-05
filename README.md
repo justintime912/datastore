@@ -36,3 +36,5 @@ Yet another change! Change #2
 
 Another useful addition!
 
+## How to Build
+mvn clean install
