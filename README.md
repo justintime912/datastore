@@ -5,7 +5,6 @@ Additional comment.
 Git Pull Testing now.
 A new change. Do a fetch now.
 
-New change added v2.
 New change added v1.
 
 ## Spring Boot Project
@@ -42,15 +41,12 @@ This is a sample line.
 
 Adding another line. Please fetch these changes!
 
-Yet another change! Change #2
+Yet another change!
 
 Another useful addition!
-
-
-## How to Build
-mvn clean install
 
 ## How to test
 http://localhost:8080/swagger-ui.html
 
-This is a small change. Please verify.
+## Good example
+http://start.spring.io/
