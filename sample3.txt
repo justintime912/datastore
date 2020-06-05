@@ -4,5 +4,3 @@ another line3
 
 new line
 another new line
-
-another line5
