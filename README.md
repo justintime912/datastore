@@ -1,6 +1,8 @@
 # datastore
 A sample project for learning git.
 Additional comment.
+
+A new change. Do a fetch now.
 ## Spring Boot Project
 
 ### How to run:
