@@ -50,3 +50,6 @@ http://localhost:8080/swagger-ui.html
 
 ## Good example
 http://start.spring.io/
+
+## another link
+http://www.google.com
