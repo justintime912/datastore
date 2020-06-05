@@ -8,6 +8,7 @@ class DatastoreApplicationTests {
 
 	@Test
 	void contextLoads() {
+		//This is a sample comment!
 	}
 
 }
