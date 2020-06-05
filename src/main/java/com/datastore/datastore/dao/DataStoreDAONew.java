@@ -11,5 +11,6 @@ public interface DataStoreDAONew {
 	public DataStoreDTO readEntry( String key) throws StoreException;
 	public DataStoreDTO deleteEntry( String key) throws StoreException;
 	public Set<String> getAllKeys();
+	public Set<String> getAllKeys2();
 	
 }
