@@ -10,5 +10,10 @@ class DatastoreApplicationTests {
 	void contextLoads() {
 		//This is a sample comment!
 	}
+	
+	@Test
+	void contextLoads1() {
+		//This is a sample comment!
+	}
 
 }
