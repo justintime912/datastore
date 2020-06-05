@@ -1,4 +1,5 @@
 # datastore
+A sample project for learning git.
 
 ## Spring Boot Project
 
