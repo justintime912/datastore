@@ -36,5 +36,9 @@ Yet another change! Change #2
 
 Another useful addition!
 
+
 ## How to Build
 mvn clean install
+
+## How to test
+http://localhost:8080/swagger-ui.html
