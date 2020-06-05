@@ -53,4 +53,10 @@ mvn clean install
 ## How to test
 http://localhost:8080/swagger-ui.html
 
-This is a small change. Please verify.
+
+## Good example
+http://start.spring.io/
+
+## another link
+http://www.google.com
+
