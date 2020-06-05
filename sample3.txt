@@ -3,3 +3,4 @@ another file
 another line3
 
 new line
+another new line
