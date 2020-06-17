@@ -8,7 +8,7 @@ public class DatastoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DatastoreApplication.class, args);
-		System.out.println("Helo World!");
+		System.out.println("Helo World! This is Spain change!");
 	}
 
 }
