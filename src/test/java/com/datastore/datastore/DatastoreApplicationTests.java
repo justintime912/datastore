@@ -16,4 +16,8 @@ class DatastoreApplicationTests {
 		//This is a sample comment!
 	}
 
+	@Test
+	void contextLoads2() {
+		System.out.println("Hello!");
+	}
 }
